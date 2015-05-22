@@ -7,7 +7,7 @@ default:
     - npm -v
     - npm install -g tnpm --registry=http://registry.npm.alibaba-inc.com
     - tnpm -v
-    - tnpm install
+    - tnpm install --unsafe-perm
   unit_test:
     exec:
     # js lint
