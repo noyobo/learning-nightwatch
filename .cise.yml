@@ -10,8 +10,8 @@ default:
     - tnpm install --unsafe-perm
   unit_test:
     exec:
-    # js lint
     - tnpm run ie
+    - tnpm run chrome
 
     plugin:
     - name: encode
