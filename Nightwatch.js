@@ -1,6 +1,7 @@
 module.exports = {
   src_folders: ['./tests'],
   output_folder: './results',
+  custom_commands_path: './extend/commands',
   custom_assertions_path: '',
   globals_path: './globals.json',
   live_output: true,

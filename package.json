@@ -4,7 +4,8 @@
   "author": "Seth McLaughlin ",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env chrome",
+    "test": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env default",
+    "chrome": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env chrome",
     "phantom": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env phantom",
     "ie": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env ie",
     "firefox": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env default"
@@ -14,6 +15,7 @@
     "nightwatch": "~0.6.12",
     "nightwatch-pages": "0.0.1",
     "phantomjs": "~1.9.17",
-    "selenium-server": "~2.45.0"
+    "selenium-server": "~2.45.0",
+    "should": "~6.0.3"
   }
 }
