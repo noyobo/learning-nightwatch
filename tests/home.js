@@ -15,7 +15,7 @@ module.exports = {
       .assert.cssClassPresent(".location.J_LaterHover", "location-hover", '鼠标经过样式变更')
       .assert.cssClassPresent(".location.J_LaterHover", "icon-tag", '子类图标样式变更')
       .assert.visible('.m-sortbar .location .sections', '发货地面板展开')
-      .pause(1000)
+      .page.mouse.leave('.location.J_LaterHover')
       .end();
   }
 };
