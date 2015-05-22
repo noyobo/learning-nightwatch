@@ -1,0 +1,19 @@
+image: win7
+
+default:
+  prepare:
+    exec:
+    - node -v
+    - npm -v
+    - npm install -g tnpm --registry=http://registry.npm.alibaba-inc.com
+    - tnpm -v
+    - tnpm install
+  unit_test:
+    exec:
+    # js lint
+    - tnpm run ie
+
+    plugin:
+    - name: encode
+      param:
+        type: utf-8
