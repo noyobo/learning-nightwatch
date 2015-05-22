@@ -1,7 +1,7 @@
 {
   "name": "learning-nightwatch",
   "version": "0.0.0",
-  "author": "Seth McLaughlin",
+  "author": "Seth McLaughlin ",
   "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env chrome",
