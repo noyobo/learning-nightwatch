@@ -11,7 +11,6 @@
   },
   "devDependencies": {
     "chromedriver": "~2.15.0",
-    "dalek-browser-ie": "0.0.5",
     "nightwatch": "~0.6.12",
     "nightwatch-pages": "0.0.1",
     "phantomjs": "~1.9.17",

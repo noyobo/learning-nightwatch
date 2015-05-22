@@ -14,7 +14,7 @@ module.exports = {
     cli_args: {
       'webdriver.chrome.driver': './node_modules/.bin/chromedriver',
       'webdriver.phantom.driver': require('phantomjs').path,
-      'webdriver.ie.driver': './node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe'
+      'webdriver.ie.driver': './ie/IEDriverServer.exe'
     }
   },
 
