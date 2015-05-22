@@ -1,4 +1,4 @@
-image: win7
+# image: win7
 
 default:
   prepare:

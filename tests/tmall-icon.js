@@ -15,6 +15,7 @@ module.exports = {
       .all('#mainsrp-itemlist .item .icon-service-tianmao', function (result) {
         this.assert.equal(result.value.length, 48, '天猫ICON 全透出');
       })
+      .saveScreenshot('./results/tmall/icon.png')
       .end();
   }
 };
